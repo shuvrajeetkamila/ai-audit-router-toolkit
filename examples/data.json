@@ -1,1 +1,14 @@
-
+{
+  "results": {
+    "model_b": {"accuracy": 33.6},
+    "baseline": {"accuracy": 34.0}
+  },
+  "training": {"transplanted_unit_frozen": true},
+  "controls": {"random_component": {}, "target_native": {}},
+  "summary": {
+    "observed_agreement_pct": 78.0,
+    "predeclared_threshold_pct": 90.0,
+    "classification": "MODERATE_AGREEMENT"
+  },
+  "runs": [{"seed_hash": "a1"}, {"seed_hash": "b2"}, {"seed_hash": "c3"}]
+}
