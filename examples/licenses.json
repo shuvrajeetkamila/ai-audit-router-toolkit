@@ -1,0 +1,48 @@
+{
+  "AGPL-3.0": {
+    "attribution": "LICENSE",
+    "commercial": true,
+    "derivative_conditions": [
+      "network use triggers source disclosure"
+    ],
+    "notes": "Strong copyleft; SaaS use counts as distribution.",
+    "redistribute": true,
+    "type": "copyleft"
+  },
+  "Apache-2.0": {
+    "attribution": "LICENSE + NOTICE",
+    "commercial": true,
+    "derivative_conditions": [],
+    "notes": "seeded",
+    "redistribute": true,
+    "type": "permissive"
+  },
+  "GPL-3.0": {
+    "attribution": "LICENSE",
+    "commercial": true,
+    "derivative_conditions": [
+      "derivative works must be GPL-3.0"
+    ],
+    "notes": "Strong copyleft for distributed binaries.",
+    "redistribute": true,
+    "type": "copyleft"
+  },
+  "MIT": {
+    "attribution": "LICENSE",
+    "commercial": true,
+    "derivative_conditions": [],
+    "notes": "Simple permissive license, no patent clause.",
+    "redistribute": true,
+    "type": "permissive"
+  },
+  "proprietary-closed": {
+    "attribution": "n/a",
+    "commercial": false,
+    "derivative_conditions": [
+      "no redistribution rights"
+    ],
+    "notes": "No license grant exists; treat as excluded until one is obtained.",
+    "redistribute": false,
+    "type": "closed"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "experts": ["billing", "technical", "sales"],
+  "rules": {
+    "billing": ["\\b(invoice|charge|refund|payment)\\b"],
+    "technical": ["\\b(error|bug|crash|not working)\\b"],
+    "sales": ["\\b(pricing|quote|demo|upgrade)\\b"]
+  }
+}

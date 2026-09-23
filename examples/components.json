@@ -1,0 +1,5 @@
+[
+  {"name": "core-engine", "license": "Apache-2.0"},
+  {"name": "cli-tool", "license": "MIT"},
+  {"name": "vendored-utils", "license": "AGPL-3.0"}
+]

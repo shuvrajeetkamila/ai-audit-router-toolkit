@@ -1,0 +1,16 @@
+[
+  {"id": "no_false_improvement", "type": "compare",
+   "left": "results.model_b.accuracy", "op": "<", "right": "results.baseline.accuracy",
+   "if_true": {"forbid_patterns": ["model b\\s+outperformed\\s+baseline"]}},
+  {"id": "frozen_weights_required", "type": "bool_equals",
+   "path": "training.transplanted_unit_frozen", "expected": true},
+  {"id": "controls_present", "type": "keys_exist",
+   "paths": ["controls.random_component", "controls.target_native"]},
+  {"id": "no_overclaiming_agreement", "type": "threshold_classification",
+   "observed": "summary.observed_agreement_pct", "threshold": "summary.predeclared_threshold_pct",
+   "classification_path": "summary.classification", "forbidden_label": "HIGH_AGREEMENT",
+   "forbidden_phrase": "achieved high agreement"},
+  {"id": "no_universal_overreach", "type": "forbidden_patterns",
+   "patterns": ["fundamentally impossible", "proves .* can never"]},
+  {"id": "distinct_seeds", "type": "unique_values", "list_path": "runs", "field": "seed_hash"}
+]

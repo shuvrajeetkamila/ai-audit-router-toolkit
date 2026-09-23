@@ -1,0 +1,14 @@
+[
+  ["my invoice looks wrong", ["billing"]],
+  ["I was charged twice this month", ["billing"]],
+  ["please refund my payment", ["billing"]],
+  ["the app crashes on launch", ["technical"]],
+  ["I found a bug in the export feature", ["technical"]],
+  ["getting an error when I log in", ["technical"]],
+  ["can I get a demo and pricing", ["sales", "billing"]],
+  ["interested in upgrading my plan", ["sales"]],
+  ["what is the quote for enterprise", ["sales"]],
+  ["not working at all, keeps crashing", ["technical"]],
+  ["invoice says wrong amount charged", ["billing"]],
+  ["need a demo before we buy", ["sales"]]
+]
